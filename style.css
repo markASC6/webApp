@@ -1,0 +1,80 @@
+body {
+    background: whitesmoke;
+    margin: 0px;
+    height: 800px;
+    font-family: 'Domine', serif;
+}
+
+.cursive {
+    font-family: 'Playfair Display SC', serif;
+    color: rgb(0, 41, 41);
+}
+.toolbar {
+    z-index: 3;
+    background-color: #002129a4;
+    width: 100%;
+    position: fixed;
+    height: 30px;
+    margin: 0px;
+}
+.bar {
+    height: 20px;
+    width: 100%;
+    margin: 5px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px;
+}
+.tool {
+    list-style: none;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+.titleCont {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.title {
+    margin-bottom: 0px;
+    margin-top: 35px;
+    font-size: 50px;
+}
+.dateCont {
+    display: flex;
+    justify-content: center;
+}
+.date {
+   margin: 0px 0px 20px 0px;
+   font-size: 20px
+}
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+.section {
+    width: 30%;
+    height: auto;
+    padding: 0px 10px
+}
+.line {
+    border-left: 1px solid;
+}
+.article{
+
+}
+.aTitle {
+    text-emphasis: bold;
+    font-size: 25px;
+}
+.author {
+    color: rgb(56, 56, 56);
+    margin-top: 10px;
+}
+.img {
+    width: 300px;
+    margin: 25px 10px 0px 25px;
+}
+.aMid {
+    border-top: 1px solid;
+}
